@@ -5,7 +5,7 @@ description = ""
 authors = ["Ole-Martin Bratteng <1681525+omBratteng@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
 pytest = "^7.1.2"
 
 [tool.poetry.dev-dependencies]
