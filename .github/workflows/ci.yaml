@@ -16,11 +16,5 @@ jobs:
           python-version: "3.10"
           cache: 'poetry'
 
-      - name: Install dependencies
-        run: |
-          poetry env use 3.10
-          poetry install
-
       - run: |
-          poetry env use 3.10
-          poetry run python --version
+          poetry env info
