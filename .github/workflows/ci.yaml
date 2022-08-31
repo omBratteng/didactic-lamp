@@ -6,12 +6,12 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3.0.2
+      - uses: actions/checkout@v3
 
       - name: Install poetry
         run: pipx install poetry
 
-      - uses: actions/setup-python@v4.2.0
+      - uses: actions/setup-python@v4
         with:
           python-version: "3.10"
           cache: 'poetry'
