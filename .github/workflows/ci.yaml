@@ -18,4 +18,6 @@ jobs:
 
       - run: |
           poetry install
+
+      - run: |
           poetry env list
