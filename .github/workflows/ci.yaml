@@ -17,4 +17,5 @@ jobs:
           cache: 'poetry'
 
       - run: |
-          poetry env info
+          poetry install
+          poetry env list
